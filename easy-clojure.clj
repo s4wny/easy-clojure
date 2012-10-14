@@ -21,8 +21,8 @@
 
 
 ;; To-int; Conver string to int.
-(defn to-int [i]
-    (Integer. (re-find #"\d+" i)))
+(defn to-int [x]
+    (Integer. (re-find #"\d+" x)))
 
 
 
